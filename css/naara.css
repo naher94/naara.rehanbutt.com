@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+
+html,body,h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+	color: #313131;
+}
+
+h1{
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+h2{
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+h3{
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+a{
+	text-decoration: underline;
+	color: #313131;
+}
+
+a:hover{
+	color: #313131;
+	font-weight: 700;
+}
+
+.dio-black{
+  color: #313131;
+}
+
+section{
+	padding: 80px 10px 80px 10px;
+}
+
+section:nth-child(1){
+	background-color: #acdeea;
+	padding-top: 120px;
+}
+section:nth-child(2){
+	background-color: #bde8ac;
+	padding-bottom: 0px;
+}
+
+section:nth-child(3){
+	background-color: #e8acac;
+}
+
+section:nth-child(4){
+	background-color: #adace5;
+}
+
+section:nth-child(5){
+	background-color: #313131;
+}
+
+.footer{
+	background-color: #ECECEC;
+	text-align: center;
+}
+
+.rehan-logo{
+	margin: 30px;
+}
+
+.no-select,img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	user-drag: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.app-icon{
+	text-align: right;
+}
+
+.center-objects{
+  text-align: center;
+}
+.naara-hero{
+  width: 300px;
+}
+
+@media only screen and (max-width: 40em) {
+
+	.app-icon{
+      text-align: center;
+	}
+	.app-name{
+      text-align: center;
+	}
+	.suggestion{
+      text-align: center;
+	}
+	section:nth-child(1){
+      padding-top: 60px;
+	}
+	h1{
+      font-size: 50px;
+	}
+	h2{
+      font-size: 50px;
+      line-height: 1.1;
+	}
+	h3{
+      font-size: 38px;
+      line-height: 1.1;
+	}
+	section{
+      padding: 50px 10px 50px 10px;
+	}
+    .naara-hero{
+      width: 200px;
+    }
+
+}
+
