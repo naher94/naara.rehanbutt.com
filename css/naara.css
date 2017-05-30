@@ -38,6 +38,27 @@ a:hover{
   color: #313131;
 }
 
+.penguin{
+  color: white;
+}
+
+i{
+  color: #a7a7a7;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.follow{
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #a7a7a7;
+  font-size: 24px;
+  text-align: left;
+}
+
 section{
 	padding: 80px 10px 80px 10px;
 }
@@ -47,16 +68,16 @@ section:nth-child(1){
 	padding-top: 120px;
 }
 section:nth-child(2){
-	background-color: #bde8ac;
+	background-color: #f9e258;
 	padding-bottom: 0px;
 }
 
 section:nth-child(3){
-	background-color: #e8acac;
+	background-color: white;
 }
 
 section:nth-child(4){
-	background-color: #adace5;
+	background-color: #B9499A;
 }
 
 section:nth-child(5){
@@ -94,6 +115,18 @@ section:nth-child(5){
   width: 300px;
 }
 
+.left-footer{
+  text-align: left;
+}
+
+.right-footer{
+  text-align: right;
+}
+
+.coming-soon{
+  font-size: 28px;
+}
+
 @media only screen and (max-width: 40em) {
 
 	.app-icon{
@@ -124,6 +157,12 @@ section:nth-child(5){
 	}
     .naara-hero{
       width: 200px;
+    }
+    .left-footer, .right-footer{
+      text-align: center;
+    }
+    .penguin-section{
+      margin-bottom: 30px;
     }
 
 }
